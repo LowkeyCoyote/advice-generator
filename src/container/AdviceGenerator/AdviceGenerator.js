@@ -1,7 +1,7 @@
 import "./AdviceGenerator.css";
 import diviserImgDesktop from "../../images/pattern-divider-desktop.svg";
 import diviserImgMobile from "../../images/pattern-divider-mobile.svg";
-import dice from "../../images/icon-dice.svg"
+import dice from "../../images/icon-dice.svg";
 import axios from "axios";
 import {useEffect, useState} from "react";
 
