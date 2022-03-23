@@ -28,7 +28,7 @@ function AdviceGenerator(){
 
     return(
         <section className="container">
-            <span className="advice-number">ADVICE # {numberAdvice}</span>
+            <p className="advice-number">ADVICE # <span className="number">{numberAdvice}</span></p>
             <h1 className="quote">"{advice}"</h1>
             <div className="diviser">
                 <img className="img-desk" src={diviserImgDesktop} alt="diviser"/>

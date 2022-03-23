@@ -18,6 +18,10 @@
     letter-spacing: 4px;
 }
 
+.number{
+    letter-spacing: 1px;
+}
+
 .quote{
     font-size: 28px;
     color: hsl(193, 38%, 86%);
