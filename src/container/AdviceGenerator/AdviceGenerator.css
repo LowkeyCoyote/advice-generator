@@ -1,0 +1,66 @@
+.container{
+    max-width: 19em;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 40px 20px 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px hsl(215, 22%, 14%);
+}
+
+.advice-number{
+    font-size: 14px;
+    color: hsl(150, 100%, 66%);
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+}
+
+.quote{
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+    margin-bottom: 20px;
+}
+
+.diviser{
+    margin-bottom: 30px;
+}
+
+.img-mobile{
+    display: none;
+}
+
+.dice{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    width: 64px;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    left: 50%;
+    bottom: -31px;
+    transform: translateX(-50%);
+    border-radius: 999px;
+}
+
+.dice:hover{
+    box-shadow: 0 0 40px rgb(82 255 169 / 82%);
+    transition: all ease-in-out 0.2s;
+}
+
+
+@media screen and (max-width: 500px){
+    .container{
+        max-width: 12.3em;
+    }
+    .img-desk{
+        display: none;
+    }
+    .img-mobile{
+        display: block;
+    }
+}
